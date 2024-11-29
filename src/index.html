@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap w/ Parcel</title>
+        <link rel="stylesheet" href="scss/styles.scss">
+        <script type="module" src="js/controller.js"></script>
+    </head>
+    <body>
+        <div class="container py-4 px-3 mx-auto"
+            style="height: 100vh;overflow: auto">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"
+                style="width: 100%;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Home</a>
+
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        </ul>
+                        <form class="d-flex" id="search">
+                            <input class="form-control me-2" type="search"
+                                class="form-control input"
+                                placeholder="Type query" aria-label="Search" />
+                            <button class="btn btn-outline-success"
+                                type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="form-outline" data-mdb-input-init style="width: 100%;">
+
+                <div class="search-result visually-hidden" id="search-result">
+                    search result
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
